@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="gradient" onload="setColor">
+    <div class="header">
+        <h1 class="title">BACKGROUND GENERATOR</h1>
+    </div>
+    <div class="container">
+        <div class="colorbox">
+            <div class="cbox">
+                <input class="color1" type="color" value="#00ff00">
+            </div>
+            <div class="cbox">
+                <input class="color2" type="color" value="#ff0000">
+            </div>
+        </div>
+        <div class="colorsubtitle">
+            <h3 class="subtitle">CURRENT CSS BACKGROUND</h3>
+            <p id="css-gradient"></p>
+        </div>
+        <button class="ranColor">Generate Random Gradient</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

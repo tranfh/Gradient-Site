@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 'Raleway' sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: .5em;
+}
+
+.header {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.colorbox {
+    display: flex;
+    justify-content: center;
+}
+
+.cbox {
+    margin: 5px;
+}
+
+#css-gradient {
+    letter-spacing: 0;
+    text-align: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranColor {
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 1em;
+}
